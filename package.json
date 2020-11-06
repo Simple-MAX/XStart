@@ -2,7 +2,7 @@
   "name": "xstart",
   "version": "0.0.1",
   "description": "",
-  "main": "",
+  "main": "index.js",
   "bin": {
     "xstrat": "./dist/index.js"
   },
@@ -37,5 +37,8 @@
     "log-symbols": "^4.0.0",
     "prompts": "^2.4.0",
     "shelljs": "^0.8.4"
-  }
+  },
+  "repository": "https://github.com/Simple-MAX/XStart.git",
+  "author": "NotPoseidon <matin.akbari@elev.ga.ntig.se>",
+  "license": "MIT"
 }
