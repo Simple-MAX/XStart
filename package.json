@@ -1,0 +1,41 @@
+{
+  "name": "xstart",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "bin": {
+    "xstrat": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && shx rm -rf dist/templates && shx cp -r src/templates dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node ./src/index.ts",
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/ejs": "^3.0.5",
+    "@types/inquirer": "^7.3.1",
+    "@types/node": "^14.14.6",
+    "@types/shelljs": "^0.8.8",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "shx": "^0.3.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "@types/log-symbols": "^3.0.0",
+    "@types/prompts": "^2.0.9",
+    "chalk": "^4.1.0",
+    "ejs": "^3.1.5",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "prompts": "^2.4.0",
+    "shelljs": "^0.8.4"
+  }
+}
