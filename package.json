@@ -1,6 +1,6 @@
 {
   "name": "xstart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -39,6 +39,6 @@
     "shelljs": "^0.8.4"
   },
   "repository": "https://github.com/Simple-MAX/XStart.git",
-  "author": "NotPoseidon <matin.akbari@elev.ga.ntig.se>",
+  "author": "itsnotposeidon <simple.max.899@gmail.com>",
   "license": "MIT"
 }
